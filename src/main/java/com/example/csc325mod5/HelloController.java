@@ -17,6 +17,6 @@ public class HelloController {
 
     @FXML
     protected void onClickMeClick() {
-        clickMeLabel.setText("Hello World");
+        clickMeLabel.setText("Hello World!");
     }
 }
