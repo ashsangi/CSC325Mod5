@@ -1,0 +1,15 @@
+Hbox{
+    maxHeight:-Infinity;
+    maxWidth:-Infinity ;
+    minHeight:-Infinity;
+    minWidth:-Infinity;
+    prefHeight:679.0 ;
+    prefWidth:911.0;
+}
+
+#anchorpaneLeft{
+    -fx-background-color: #cd9d4e;
+    prefHeight:679.0;
+    prefWidth:281.0;
+}
+

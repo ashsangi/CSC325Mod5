@@ -1,22 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <AnchorPane fx:id="anchorpaneLeft" prefHeight="679.0" prefWidth="281.0" style="-fx-background-color: #cd9d4e;">
          <children>
-            <ImageView fitHeight="201.0" fitWidth="273.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="154.0" fitWidth="172.0" layoutX="13.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../../Users/Ashraf/OneDrive/Pictures/pfpavatar.jpg" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="580.0" prefWidth="576.0" />
+      <AnchorPane prefHeight="679.0" prefWidth="513.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <MenuBar layoutX="1.0" layoutY="47.0" prefHeight="25.0" prefWidth="493.0" style="-fx-background-color: #aaaaaa;">
+              <menus>
+                <Menu mnemonicParsing="false" text="ID" />
+                <Menu mnemonicParsing="false" text="First Name">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Last Name">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Department">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Major">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Email">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <MenuBar layoutX="-184.0" layoutY="640.0" prefHeight="25.0" prefWidth="677.0" style="-fx-background-color: #aaaaaa;" />
+            <MenuBar layoutX="-183.0" layoutY="22.0" prefHeight="25.0" prefWidth="677.0" style="-fx-background-color: #971a1a;">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Theme">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="189.0" layoutY="397.0" text="No content in table" />
+            <MenuBar layoutX="-183.0" layoutY="-3.0" prefHeight="25.0" prefWidth="677.0" style="-fx-background-color: #fcf4e8;">
+               <menus>
+                  <Menu mnemonicParsing="false" text="                                                                                                       FSC CSC325_Full Stack Project">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="679.0" prefWidth="331.0" style="-fx-background-color: #82ff59;">
+         <children>
+            <TextField layoutX="39.0" layoutY="54.0" promptText="First Name" />
+            <TextField layoutX="39.0" layoutY="86.0" promptText="Last Name" />
+            <TextField layoutX="39.0" layoutY="118.0" promptText="Department" />
+            <TextField layoutX="39.0" layoutY="151.0" promptText="Major" />
+            <TextField layoutX="39.0" layoutY="186.0" promptText="Email" />
+            <TextField layoutX="39.0" layoutY="217.0" promptText="imageURL" />
+            <TextField alignment="CENTER" layoutX="22.0" layoutY="418.0" prefHeight="46.0" prefWidth="183.0" style="-fx-background-color: #cd9d4e;" text="Clear">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" layoutX="22.0" layoutY="476.0" prefHeight="46.0" prefWidth="183.0" style="-fx-background-color: #cd9d4e;" text="Add">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" layoutX="22.0" layoutY="531.0" prefHeight="46.0" prefWidth="183.0" style="-fx-background-color: #cd9d4e;" text="Delete">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </TextField>
+            <TextField alignment="CENTER" layoutX="22.0" layoutY="587.0" prefHeight="46.0" prefWidth="183.0" style="-fx-background-color: #cd9d4e;" text="Edit">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </TextField>
+            <MenuBar layoutY="640.0" prefHeight="25.0" prefWidth="234.0" style="-fx-background-color: #aaaaaa;">
+              <menus>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <MenuBar layoutY="22.0" prefHeight="25.0" prefWidth="234.0" style="-fx-background-color: #971a1a;">
+              <menus>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <MenuBar layoutX="-9.0" layoutY="-3.0" prefHeight="25.0" prefWidth="243.0" style="-fx-background-color: #fcf4e8;">
+              <menus>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
    </children>
 </HBox>
