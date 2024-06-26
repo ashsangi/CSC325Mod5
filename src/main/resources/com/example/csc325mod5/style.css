@@ -1,15 +1,25 @@
 Hbox{
-    maxHeight:-Infinity;
-    maxWidth:-Infinity ;
-    minHeight:-Infinity;
-    minWidth:-Infinity;
-    prefHeight:679.0 ;
-    prefWidth:911.0;
+    -fx-pref-height:679.0 ;
+    -fx-pref-width:911.0;
 }
 
-#anchorpaneLeft{
+#anchorpaneLeft {
     -fx-background-color: #cd9d4e;
-    prefHeight:679.0;
-    prefWidth:281.0;
+    -fx-pref-height: 679;
+    -fx-pref-width: 281;
 }
+
+#anchorPaneMiddle{
+    -fx-pref-height:679.0;
+    -fx-pref-width: 513.0;
+    -fx-background-color: #ffffff;
+}
+#anchorPaneRight{
+    -fx-pref-height: 679.0;
+    -fx-pref-width: 331.0;
+    -fx-background-color: #82ff59;
+}
+
+
+
 
